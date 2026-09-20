@@ -1,0 +1,17 @@
+[
+  {
+    "id": "brute-force-1",
+    "question": "We saw 40 failed logins from one IP followed by a successful admin login. What should I investigate first?",
+    "expected_doc": "brute_force"
+  },
+  {
+    "id": "sqli-1",
+    "question": "Our API logs contain UNION SELECT and OR 1=1 payloads. What is the correct containment and fix?",
+    "expected_doc": "sql_injection"
+  },
+  {
+    "id": "traversal-1",
+    "question": "A download endpoint is receiving ../../etc/passwd requests. What controls should we add?",
+    "expected_doc": "path_traversal"
+  }
+]
