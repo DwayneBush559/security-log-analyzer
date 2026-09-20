@@ -19,3 +19,6 @@ jobs:
 
       - name: Run unit tests
         run: python -m unittest discover -v
+
+      - name: Run AI evaluation harness
+        run: python run_eval.py
